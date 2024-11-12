@@ -1,0 +1,9 @@
+torch>=2.1.0
+numpy>=1.24.0
+einops>=0.7.0  # useful for tensor operations
+# fourier-head @ git+https://github.com/nate-gillman/fourier-head.git  # base implementation
+matplotlib>=3.7.0  # for visualizing results
+scipy>=1.11.0  # for complexity metrics
+pandas
+
+claudesync  # for project management

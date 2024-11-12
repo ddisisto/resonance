@@ -1,0 +1,9 @@
+{
+  "active_provider": "claude.ai",
+  "active_organization_id": "fc44178e-b0a2-4150-aee4-c3f828e6a610",
+  "active_project_id": "098367a5-e181-405e-9407-212198ad865b",
+  "active_project_name": "resonance",
+  "local_path": "/home/daniel/prj/resonance",
+  "default_sync_category": "all_files",
+  "max_file_size": 50000000
+}

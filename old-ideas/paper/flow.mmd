@@ -1,0 +1,36 @@
+flowchart LR
+    subgraph "Input Layer"
+        direction TB
+        I["12 nodes<br>4 freq"]
+    end
+    subgraph "Hidden Layer 1"
+        direction TB
+        H1["10 nodes<br>8 freq"]
+    end
+    subgraph "Hidden Layer 2"
+        direction TB
+        H2["8 nodes<br>16 freq"]
+    end
+    subgraph "Middle Layer"
+        direction TB
+        M["6 nodes<br>32 freq"]
+    end
+    subgraph "Hidden Layer 3"
+        direction TB
+        H3["8 nodes<br>16 freq"]
+    end
+    subgraph "Hidden Layer 4"
+        direction TB
+        H4["10 nodes<br>8 freq"]
+    end
+    subgraph "Output Layer"
+        direction TB
+        O["12 nodes<br>4 freq"]
+    end
+
+    I --> H1
+    H1 --> H2
+    H2 --> M
+    M --> H3
+    H3 --> H4
+    H4 --> O
